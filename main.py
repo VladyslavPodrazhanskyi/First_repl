@@ -1,1 +1,2 @@
-print(int(0.5))
+for i in range(200, 186, -2):
+  print(i, end=' ')
