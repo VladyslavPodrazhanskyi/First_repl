@@ -5,3 +5,4 @@ information from linux + changed
 make corrections in windows machine
 make change in linux to send it on windows machine
 make change in github
+made changes in pycharm wind
