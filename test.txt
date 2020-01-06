@@ -1,2 +1,3 @@
 all deleted for new testing:
 1) correct in pycharm from cmd
+2) new correction in pycharm cmd
