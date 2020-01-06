@@ -1,9 +1,2 @@
-information from linux
-information from repl.it
-information from linux + changed
-2 files that were not received in repl.it
-make corrections in windows machine
-make change in linux to send it on windows machine
-make change in github
-made changes in pycharm wind
-made new changes in pycharm wind
+all deleted for new testing:
+1) correct in pycharm from cmd
