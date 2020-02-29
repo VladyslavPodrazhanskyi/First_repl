@@ -2,12 +2,8 @@
 .pyc
 # IDE files
 .idea
-/.idea
 __pycache__
 
 env
 venv
 virtualenv
-
-*.xls
-*.log

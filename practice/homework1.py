@@ -8,6 +8,8 @@ from typing import List
 
 class OurAwesomeException(Exception):
     pass
+    # def __init__(self, text):
+    #     self.text = text
 
 
 def is_two_object_has_same_value(first: Any, second: Any) -> bool:
@@ -46,7 +48,7 @@ def multiple_ints(first_value: int, second_value: int) -> int:
     Returns:
         Product of elements
     """
-    if type(first_value) == int and type(second_value) == int:
+    if isinstance(first_value, int) and isinstance(second_value, int):
         return first_value * second_value
     else:
         raise ValueError
@@ -78,7 +80,7 @@ def multiple_ints_with_conversion(first_value: Any, second_value: Any) -> int:
     try:
         return int(first_value) * int(second_value)
     except ValueError:
-        return 'Not valid input data'
+        raise OurAwesomeException("Not valid input data")
 
 
 def is_word_in_text(word: str, text: str) -> bool:
@@ -148,3 +150,6 @@ def simple_sort(data: List[int]) -> List[int]:
 
     return data
 
+print(multiple_ints_with_conversion(24, 3))
+print(multiple_ints_with_conversion('fkjdsk', 3))
+print(multiple_ints(23, 12))
