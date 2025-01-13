@@ -1,2 +1,2 @@
-virtualenv==16.7.9
+virtualenv==20.26.6
 virtualenvwrapper-win==1.2.5
